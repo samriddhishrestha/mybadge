@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-family: poppins, sans-serif;
+}
+
+body {
+  background-image: url("https://images.unsplash.com/photo-1531512073830-ba890ca4eba2?q=80&w=1879&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  position: relative;
+}
+
+.main-box {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.2);
+  height: 30rem;
+  width: 30rem;
+  top: 4rem;
+  left: 25rem;
+  border-radius: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  backdrop-filter: blur(20px);
+  /* filter: blur(2rem); */
+}
+
+.myimage img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 100%;
+  margin-top: 20px;
+  object-fit: cover;
+}
+
+.feature1 {
+  font-size: 30px;
+  margin-top: 10px;
+}
+
+.feature2 {
+  margin-top: 10px;
+}
+
+h1 {
+  margin-top: 50px;
+}
+
+.image-container {
+  display: flex;
+  margin-top: 25px;
+  gap: 30px;
+}
+
+.image-container a {
+  color: red;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#mailme {
+  color: black;
+}
+
+hr {
+  margin-top: 20px;
+  width: 6rem;
+}
